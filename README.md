@@ -180,13 +180,13 @@ Just run the makefile `compile` target, then you will see two release binaries `
 
 ```sh
 # make compile
-# rustc 1.88.0 (6b00bc388 2025-06-23)
+# rustc 1.89.0 (298838389 2025-08-04)
 # binary: rustc
-# commit-hash: 6b00bc3880198600130e1cf62b8f8a93494488cc
-# commit-date: 2025-06-23
+# commit-hash: 29483883eed69d5fb4db01964cdf2af4d86e9cb2
+# commit-date: 2025-08-04
 # host: x86_64-unknown-linux-gnu
-# release: 1.88.0
-# LLVM version: 20.1.5
+# release: 1.89.0
+# LLVM version: 20.1.7
 
 # 2. Compiling application (linux-musl x86_64)...
 #     Finished release [optimized] target(s) in 0.01s
