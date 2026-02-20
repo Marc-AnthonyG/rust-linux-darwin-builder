@@ -288,7 +288,7 @@ test-openssl:
 # Use `REPOSITORY` arg to specify which container repository to push the images to.
 buildx:
 	docker run --privileged --rm tonistiigi/binfmt --install linux/amd64,linux/arm64
-	docker buildx create --name darwin-builder --driver docker-container --bootstrap
+	docker buildx create --name darwin-builder --driver docker-container --bootstrap || true
 	docker buildx use darwin-builder
 	docker buildx build \
 		--platform linux/amd64,linux/arm64 \
